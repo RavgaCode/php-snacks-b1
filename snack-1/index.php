@@ -40,8 +40,7 @@ $matches =[
     <?php $thisMatch = $matches[$i]; ?>
     <li>
         <!-- Stampo i dati nella li -->
-        <h3><?php echo $thisMatch['homeTeam']; ?> - <?php echo$thisMatch['guestTeam'] ?></h3>
-        <h4><?php echo $thisMatch['homeScore']; ?> - <?php echo$thisMatch['guestScore'] ?></h4>
+        <h3><?php echo $thisMatch['homeTeam']; ?> - <?php echo$thisMatch['guestTeam'] ?> | <?php echo $thisMatch['homeScore']; ?> - <?php echo$thisMatch['guestScore'] ?></h3> 
     </li>
     
     <!-- Chiudo il ciclo for -->
